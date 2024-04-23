@@ -1,0 +1,320 @@
+{
+    "schema": {
+      "age": {
+        "dtype": "uint16",
+        "kind": "numeric",
+        "min": 17,
+        "max": 90,
+        "bins": 10
+      },
+      "hours-per-week": {
+        "dtype": "uint16",
+        "kind": "numeric",
+        "min": 1,
+        "max": 99,
+        "bins": 10
+      },
+      "capital-gain": {
+        "dtype": "uint16",
+        "kind": "numeric",
+        "min": 0,
+        "max": 99999,
+        "bins": 5000
+      },
+      "capital-loss": {
+        "dtype": "uint16",
+        "kind": "numeric",
+        "min": 0,
+        "max": 4356,
+        "bins": 500
+      },
+      "education": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "Bachelors",
+          "HS-grad",
+          "11th",
+          "Masters",
+          "9th",
+          "Some-college",
+          "Assoc-acdm",
+          "Assoc-voc",
+          "7th-8th",
+          "Doctorate",
+          "Prof-school",
+          "5th-6th",
+          "10th",
+          "1st-4th",
+          "Preschool",
+          "12th"
+        ],
+        "codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "income": {
+        "dtype": "string",
+        "kind": "categorical",
+        "values": [
+          ">50K",
+          "<=50K"
+        ],
+        "codes": [
+          0,
+          1
+        ]
+      },
+      "marital-status": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "Married-civ-spouse",
+          "Divorced",
+          "Never-married",
+          "Separated",
+          "Widowed",
+          "Married-spouse-absent",
+          "Married-AF-spouse"
+        ],
+        "codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "occupation": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "",
+          "Adm-clerical",
+          "Exec-managerial",
+          "Handlers-cleaners",
+          "Prof-specialty",
+          "Other-service",
+          "Sales",
+          "Craft-repair",
+          "Transport-moving",
+          "Farming-fishing",
+          "Machine-op-inspct",
+          "Tech-support",
+          "?",
+          "Protective-serv",
+          "Armed-Forces",
+          "Priv-house-serv"
+        ],
+        "codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "relationship": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "",
+          "Wife",
+          "Own-child",
+          "Husband",
+          "Not-in-family",
+          "Other-relative",
+          "Unmarried"
+        ],
+        "codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "race": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "White",
+          "Asian-Pac-Islander",
+          "Amer-Indian-Eskimo",
+          "Other",
+          "Black"
+        ],
+        "codes": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "sex": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "Female",
+          "Male"
+        ],
+        "codes": [
+          0,
+          1
+        ]
+      },
+      "workclass": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "",
+          "State-gov",
+          "Self-emp-not-inc",
+          "Private",
+          "Federal-gov",
+          "Local-gov",
+          "?",
+          "Self-emp-inc",
+          "Without-pay",
+          "Never-worked"
+        ],
+        "codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "native-country": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "",
+          "United-States",
+          "Cuba",
+          "Jamaica",
+          "India",
+          "?",
+          "Mexico",
+          "South",
+          "Puerto-Rico",
+          "Honduras",
+          "England",
+          "Canada",
+          "Germany",
+          "Iran",
+          "Philippines",
+          "Italy",
+          "Poland",
+          "Columbia",
+          "Cambodia",
+          "Thailand",
+          "Ecuador",
+          "Laos",
+          "Taiwan",
+          "Haiti",
+          "Portugal",
+          "Dominican-Republic",
+          "El-Salvador",
+          "France",
+          "Guatemala",
+          "China",
+          "Japan",
+          "Yugoslavia",
+          "Peru",
+          "Outlying-US(Guam-USVI-etc)",
+          "Scotland",
+          "Trinadad&Tobago",
+          "Greece",
+          "Nicaragua",
+          "Vietnam",
+          "Hong",
+          "Ireland",
+          "Hungary",
+          "Holand-Netherlands"
+        ],
+        "codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      }
+    }
+  }

@@ -1,0 +1,185 @@
+{
+    "schema": {
+      "smoke": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "YES",
+          "NO"
+        ],
+        "codes": [
+          0,
+          1
+        ]
+      },
+      "sex": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "MALE",
+          "FEMALE"
+        ],
+        "codes": [
+          0,
+          1
+        ]
+      },
+      "age": {
+        "dtype": "uint8",
+        "kind": "numeric",
+        "min": 16,
+        "max": 97,
+        "bins": 10
+      },
+      "edu": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "VOCATIONAL/GRAMMAR",
+          "PRIMARY/NO EDUCATION",
+          "SECONDARY",
+          "POST-SECONDARY OR HIGHER"
+        ],
+        "codes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "weight": {
+        "dtype": "float64",
+        "kind": "numeric",
+        "min": 37,
+        "max": 150,
+        "bins": 10
+      },
+      "height": {
+        "dtype": "float64",
+        "kind": "numeric",
+        "min": 116,
+        "max": 202,
+        "bins": 10
+      },
+      "bmi": {
+        "dtype": "float64",
+        "kind": "numeric",
+        "min": 12.962963,
+        "max": 449.9797317,
+        "bins": 10
+      },
+      "sport": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "NO",
+          "YES"
+        ],
+        "codes": [
+          0,
+          1
+        ]
+      },
+      "marital": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "MARRIED",
+          "SINGLE",
+          "WIDOWED",
+          "DIVORCED",
+          "DE FACTO SEPARATED",
+          "LEGALLY SEPARATED"
+        ],
+        "codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "region": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "Lubuskie",
+          "Podlaskie",
+          "Mazowieckie",
+          "Zachodnio-pomorskie",
+          "Slaskie",
+          "Wielkopolskie",
+          "Swietokrzyskie",
+          "Dolnoslaskie",
+          "Kujawsko-pomorskie",
+          "Pomorskie",
+          "Lodzkie",
+          "Podkarpackie",
+          "Lubelskie",
+          "Malopolskie",
+          "Warminsko-mazurskie",
+          "Opolskie"
+        ],
+        "codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "wkabint": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "NO",
+          "YES"
+        ],
+        "codes": [
+          0,
+          1
+        ]
+      },
+      "income": {
+        "dtype": "float64",
+        "kind": "numeric",
+        "min": 0,
+        "max": 16000,
+        "bins": 2000
+      },
+      "ls": {
+        "dtype": "str",
+        "kind": "categorical",
+        "values": [
+          "PLEASED",
+          "MOSTLY SATISFIED",
+          "MIXED",
+          "MOSTLY DISSATISFIED",
+          "DELIGHTED",
+          "TERRIBLE",
+          "UNHAPPY"
+        ],
+        "codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    }
+  }

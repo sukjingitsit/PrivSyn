@@ -1,0 +1,13 @@
+---
+identifier_list:
+  - ID
+
+binning_list:
+  "Age":
+    - 14
+    - 87
+    - 10
+
+# grouping_list:
+
+# determined_list:

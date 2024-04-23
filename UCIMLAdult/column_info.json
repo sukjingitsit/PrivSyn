@@ -1,0 +1,35 @@
+{
+  "dtype": {
+    "age": "uint8",
+    "workclass": "str",
+    "education": "str",
+    "marital-status": "str",
+    "occupation": "str",
+    "relationship": "str",
+    "race": "str",
+    "sex": "str",
+    "capital-gain": "uint16",
+    "capital-loss": "uint16",
+    "hours-per-week": "uint8",
+    "native-country": "str",
+    "income": "str"
+  },
+  "fillna": {
+    "age": 0,
+    "workclass": "",
+    "education": "",
+    "marital-status": "",
+    "occupation": "",
+    "relationship": "",
+    "race": "",
+    "sex": "",
+    "capital-gain": 0,
+    "capital-loss": 0,
+    "hours-per-week": 0,
+    "native-country": "",
+    "income": ""
+  }
+}
+
+
+

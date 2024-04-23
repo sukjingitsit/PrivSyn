@@ -1,0 +1,32 @@
+{
+  "dtype": {
+    "smoke": "str",
+    "sex": "str",
+    "age": "uint8",
+    "edu": "str",
+    "weight": "float64",
+    "height": "float64",
+    "bmi": "float64",
+    "sport": "str",
+    "marital": "str",
+    "region": "str",
+    "wkabint": "str",
+    "income": "float64",
+    "ls": "str"
+  },
+  "fillna": {
+    "smoke": "NO",
+    "sex": "MALE",
+    "age": 0,
+    "edu": "PRIMARY/NO EDUCATION",
+    "weight": 0,
+    "height": 0,
+    "bmi": 0,
+    "sport": "NO",
+    "marital": "SINGLE",
+    "region": "Lodzkie",
+    "wkabint": "NO",
+    "income": 0.0,
+    "ls": "DELIGHTED"
+  }
+}

@@ -1,0 +1,29 @@
+---
+identifier_list:
+  - "ID"
+
+binning_list:
+  "age":
+    - 16
+    - 97
+    - 10
+  "weight":
+    - 37
+    - 150
+    - 10
+  "height":
+    - 116
+    - 202
+    - 10
+  "bmi":
+    - 12.962963
+    - 449.9797317
+    - 10
+  "income":
+    - 0
+    - 16000.0
+    - 2000
+
+# grouping_list:
+
+# determined_list:

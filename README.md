@@ -21,6 +21,16 @@ The flow of code is as follows,
 * The next call is to Consistenter which is used to consist the marginals so as to satisfy the requirements of a probability distribution using Norm-Sub for l_2 consistency
 * Thereafter, a call is made to the Gradually Update Method (GUM) which also has a subfolder. The subfolder consists of View.py (which is a class defined for ease of processing), ViewConsistenter.py (which is defined for a second iteration of marginal consistenting before GUM is called) and RecordSynthesiser.py which is the main call to the GUM method
 * Finally, PostProcessor.py converts the pandas dataset back to the same format in which the data was input (such as unbinning continuous attributes or decoding categorical attributes)
-Other files by the name of tempAnonymisation.py and main.py are present as initial versions of the code which were then removed in favour of Anonymisation.py and using separate .ipynb notebooks for each dataset (as opposed to a command-line interface). GUM.py currently shows a fragmented dataset warning, and I plan o
+Other files by the name of tempAnonymisation.py and main.py are present as initial versions of the code which were then removed in favour of Anonymisation.py and using separate .ipynb notebooks for each dataset (as opposed to a command-line interface).
 
 ## Requirements
+The following libraries are required for the functioning of the code,
+* Pyyaml
+* Numpy
+* Pandas
+* Networkx
+* Scikit-Learn
+The code was run a MacOS with osx-arm64 compiler
+
+## Acknowledgements
+A code implementation of DPSyn, an algorithm similar to PrivSyn and developed by the same authors, is also available on Github at [this link](https://github.com/agl-c/deid2_dpsyn)
