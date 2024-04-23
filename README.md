@@ -30,6 +30,7 @@ The following libraries are required for the functioning of the code,
 * Pandas
 * Networkx
 * Scikit-Learn
+
 The code was run a MacOS with osx-arm64 compiler
 
 ## Acknowledgements
