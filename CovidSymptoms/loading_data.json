@@ -1,0 +1,68 @@
+{
+    "schema": {
+      "fever": {
+        "dtype": "uint8",
+        "kind": "numeric",
+        "min": 98,
+        "max": 104,
+        "bins": 1
+      },
+      "bodyPain": {
+        "dtype": "uint8",
+        "kind": "categorical",
+        "values": [
+          0,
+          1
+        ],
+        "codes": [
+          0,
+          1
+        ]
+      },
+      "age": {
+        "dtype": "uint8",
+        "kind": "numeric",
+        "min": 1,
+        "max": 100,
+        "bins": 10
+      },
+      "runnyNose": {
+        "dtype": "uint8",
+        "kind": "categorical",
+        "values": [
+          0,
+          1
+        ],
+        "codes": [
+          0,
+          1
+        ]
+      },
+      "diffBreath": {
+        "dtype": "int8",
+        "kind": "categorical",
+        "values": [
+          -1,
+          0,
+          1
+        ],
+        "codes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "infectionProb": {
+        "dtype": "uint8",
+        "kind": "categorical",
+        "values": [
+          0,
+          1
+        ],
+        "codes": [
+          0,
+          1
+        ]
+      }
+    }
+  }

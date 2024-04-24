@@ -1,0 +1,17 @@
+---
+identifier_list:
+  - ID
+
+binning_list:
+  "age":
+    - 1
+    - 100
+    - 10
+  "fever":
+    - 98
+    - 104
+    - 1
+
+# grouping_list:
+
+# determined_list:

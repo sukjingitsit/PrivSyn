@@ -1,0 +1,27 @@
+{
+  "dtype": {
+    "Pregnancies": "uint8",
+    "Glucose": "uint16",
+    "BloodPressure": "uint16",
+    "SkinThickness": "uint16",
+    "Insulin": "uint16",
+    "BMI": "float64",
+    "DiabetesPedigreeFunction": "uint16",
+    "Age": "uint8",
+    "Outcome": "uint8"
+  },
+  "fillna": {
+    "Pregnancies": 0,
+    "Glucose": 0,
+    "BloodPressure": 0,
+    "SkinThickness": 0,
+    "Insulin": 0,
+    "BMI": 0,
+    "DiabetesPedigreeFunction": 0,
+    "Age": 0,
+    "Outcome": 0
+  }
+}
+
+
+

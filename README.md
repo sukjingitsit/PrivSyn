@@ -6,7 +6,7 @@ To run the code, one has to perform two major steps,
 * Notebook Preparation
 
 ## Dataset Preparation
-This task is not covered within the code and has to be performed manually specific to each dataset beforehand. There are three datasets used within the code 'Polish', 'UCI Adult' and 'US Accidental Drug Deaths'. These may be referenced for formatting. Essentially, each dataset needs the corresponding csv file, and three configuration related files. These configuration files are necessary for data loading and postprocessing after the algorithm is run. Each of the configuration files is used in the code as follows,
+This task is not covered within the code and has to be performed manually specific to each dataset beforehand. There are five datasets used within the code 'Polish', 'UCI Adult', 'Covid Symptoms', 'Diabetes' and 'US Accidental Drug Deaths'. These may be referenced for formatting. Essentially, each dataset needs the corresponding csv file, and three configuration related files. These configuration files are necessary for data loading and postprocessing after the algorithm is run. Each of the configuration files is used in the code as follows,
 * loading_data.json is used for an overview of each attribute
 * data.yaml is used to handle identifier attributes, numeric attributes (binning) and also grouping attributes (which is implemented but commented out as it seldom leads to errors)
 * column_info.json is used for datatypes and nan-value handling

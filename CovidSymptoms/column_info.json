@@ -1,0 +1,21 @@
+{
+  "dtype": {
+    "fever": "uint8",
+    "bodyPain": "uint8",
+    "age": "uint8",
+    "runnyNose": "uint8",
+    "diffBreath": "int8",
+    "infectionProb": "uint8"
+  },
+  "fillna": {
+    "fever": 0,
+    "bodyPain": 0,
+    "age": 0,
+    "runnyNose": 0,
+    "diffBreath": 0,
+    "infectionProb": 0
+  }
+}
+
+
+

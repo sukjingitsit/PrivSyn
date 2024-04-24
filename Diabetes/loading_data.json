@@ -1,0 +1,72 @@
+{
+    "schema": {
+      "Pregnancies": {
+        "dtype": "uint8",
+        "kind": "numeric",
+        "min": 0,
+        "max": 17,
+        "bins": 3
+      },
+      "Glucose": {
+        "dtype": "uint16",
+        "kind": "numeric",
+        "min": 0,
+        "max": 199,
+        "bins": 40
+      },
+      "BloodPressure": {
+        "dtype": "uint16",
+        "kind": "numeric",
+        "min": 0,
+        "max": 122,
+        "bins": 40
+      },
+      "SkinThickness": {
+        "dtype": "uint16",
+        "kind": "numeric",
+        "min": 0,
+        "max": 99,
+        "bins": 30
+      },
+      "Insulin": {
+        "dtype": "uint16",
+        "kind": "numeric",
+        "min": 0,
+        "max": 846,
+        "bins": 160
+      },
+      "BMI": {
+        "dtype": "float64",
+        "kind": "numeric",
+        "min": 0.0,
+        "max": 67.1,
+        "bins": 12.0
+      },
+      "DiabetesPedigreeFunction": {
+        "dtype": "uint16",
+        "kind": "numeric",
+        "min": 78,
+        "max": 2420,
+        "bins": 400
+      },
+      "Age": {
+        "dtype": "uint8",
+        "kind": "numeric",
+        "min": 21,
+        "max": 81,
+        "bins": 12
+      },
+      "Outcome": {
+        "dtype": "uint8",
+        "kind": "categorical",
+        "values": [
+          0,
+          1
+        ],
+        "codes": [
+          0,
+          1
+        ]
+      }
+    }
+  }
